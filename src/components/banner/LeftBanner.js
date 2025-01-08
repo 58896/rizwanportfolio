@@ -1,8 +1,6 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {
-  FaFacebookF,
-  FaTwitter,
   FaLinkedinIn,
   FaReact,
   FaGithub,
@@ -14,7 +12,11 @@ import { SiNextdotjs, SiGmail } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Full-Stack ", "Shopify", "WordPress"],
+    words: [
+      "Full-Stack Developer.",
+      "Shopify Specialist.",
+      "WordPress Specialist",
+    ],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -29,8 +31,7 @@ const LeftBanner = () => {
           <span className="text-designColor capitalize">Muhammad Rizwan</span>
         </h1>
         <h2
-          className="text-xl f
-        ont-bold text-white sm:text-2px lg:text-4xl"
+          className="text-xl font-bold text-white sm:text-2px lg:text-4xl"
         >
           <span>{text}</span>
           <Cursor
