@@ -14,11 +14,7 @@ import { SiNextdotjs, SiGmail } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: [
-      "Full-Stack Developer.",
-      "Shopify Specialist.",
-      "WordPress Specialist",
-    ],
+    words: ["Full-Stack ", "Shopify", "WordPress"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -32,7 +28,10 @@ const LeftBanner = () => {
           Hi, I'm{" "}
           <span className="text-designColor capitalize">Muhammad Rizwan</span>
         </h1>
-        <h2 className="text-xl font-bold text-white sm:text-2px lg:text-4xl">
+        <h2
+          className="text-xl f
+        ont-bold text-white sm:text-2px lg:text-4xl"
+        >
           <span>{text}</span>
           <Cursor
             cursorBlinking="false"
